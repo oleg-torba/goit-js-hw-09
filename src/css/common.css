@@ -19,7 +19,7 @@ img {
   max-width: 100%;
 }
 
-input {
+/* input {
   color: aliceblue;
   height: 30px;
   width: 150px;
@@ -48,6 +48,5 @@ button{
 }
 
 .field{
-  margin-right: 10px;
+  margin-right: 10px; */
 
-}
