@@ -35,7 +35,7 @@ function startPromise() {
         Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`)
       )
       .catch(({ position, delay }) =>
-        console.log(`❌ Rejected promise ${position} in ${delay}ms`)
+        Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`)
       );
     position += 1;
     delay += step;
